@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // })
 
     //case3
-    // for(let idx in bts) {
+    // for(let idx in bts) {0
     //     console.log(bts[idx].textContent);
     // }
 
