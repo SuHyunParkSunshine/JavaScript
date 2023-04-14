@@ -23,7 +23,7 @@ const palindrome = (t1, t2) => {
     console.log("s=", s, ", rs=", rs);
 
 
-    if (t1.value == rs) {
+    if (t1.value == rs) { //그냥 바로 s 라고 하면 안되는 이유는 위에서 s가 배열로 변하기 때문 배열과 문자열은 비교 불가능
         t2.value = "회문입니다잉"; //form 안의 값은 value로 찍어야 한다. input타입 text라서 value로 찍어야 함. innerHTML이나 textContent를 쓸 수 없다.
     }
     else {
@@ -77,3 +77,6 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+
+//querySelector
+//getAttribute
