@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
-    <link rel="stylesheet" href="../styles/08.css">
+    <link rel="stylesheet" type="text/css" href="../styles/08.css">
 
     <script src="./08.js"></script>
     <title>폭탄게임</title>
@@ -17,26 +17,29 @@
         <article>
             <header>
                 <h1>폭탄게임</h1>
+                <h2></h2>
             </header>
-            <div class="grid1">
-                <div class="box1"></div>
-                <div class="box1"></div>
-                <div class="box1"></div>
-            </div>
-            <div class="grid2">
-                <div class="box1"></div>
-                <div class="box1"></div>
-                <div class="box1"></div>
-            </div>
-            <div class="grid3">
-                <div class="box1"></div>
-                <div class="box1"></div>
-                <div class="box1"></div>
-            </div>
-
+            <form>
+                <div class="grid1">
+                    <div class="box" id="box1"></div>
+                    <div class="box" id="box2"></div>
+                    <div class="box" id="box3"></div>
+                </div>
+                <div class="grid1">
+                    <div class="box" id="box4"></div>
+                    <div class="box" id="box5"></div>
+                    <div class="box" id="box6"></div>
+                </div>
+                <div class="grid1">
+                    <div class="box" id="box7"></div>
+                    <div class="box" id="box8"></div>
+                    <div class="box" id="box9"></div>
+                </div>
+              </form>
             <footer>
-                <button id="bt1" class="bt">폭탄섞기</button>
+                <button type="button" id="bt1" class="bt">폭탄섞기</button>
             </footer>
+      
         </article>
 
     </main>
